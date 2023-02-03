@@ -1,6 +1,13 @@
+header{
+  margin: 0.5rem 2rem;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
 .series-grid{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  margin: 5rem 5rem 10rem 5rem;
 }
 
 .card{
@@ -9,5 +16,20 @@
 }
 
 .card-img-top{
-  max-height: 200px;
+  max-height: 300px;
+}
+
+.lines{
+  display: block;
+  background-color: rgb(34, 66, 40);
+  height: 0.5rem;
+  margin: 0 4rem;
+}
+
+.form{
+  margin: 17rem 30rem;
+}
+
+#addSerie{
+  margin-top: 1rem;
 }

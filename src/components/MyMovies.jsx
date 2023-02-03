@@ -9,7 +9,7 @@ function MyMovies() {
         { "id": 6, "name": "Sword art online", "img": "https://es.web.img3.acsta.net/pictures/19/07/09/11/04/5921608.jpg" },
         { "id": 7, "name": "Big mouth", "img": "https://images.justwatch.com/poster/257258766/s718/big-mouth.%7Bformat%7D" },
         { "id": 8, "name": "El robo del siglo", "img": "http://www.elespectadorimaginario.com/wp-content/webpc-passthru.php?src=http://www.elespectadorimaginario.com/wp-content/uploads/el_robo_del_siglo_1.jpg&nocache=1" },
-        { "id": 9, "name": "Solar opposites", "img": "" },
+        { "id": 9, "name": "Solar opposites", "img": "https://lumiere-a.akamaihd.net/v1/images/solar_opposites_4x5_las_e0333d41.png" },
         { "id": 10, "name": "Alice in borderland", "img": "" },
         { "id": 11, "name": "Super campeones", "img": "" },
         { "id": 12, "name": "Blue exorcist", "img": "" },
@@ -34,7 +34,7 @@ function MyMovies() {
     const [series, setSeries] = useState(mySeries);
 
     const addSerie = () => {
-
+        alert("A new serie has been added to the database");
     }
 
 
@@ -43,9 +43,11 @@ function MyMovies() {
 
     return (
         <div className="MyMovies">
-            <h1>Series Miguel</h1>
-            <h2>You have seen {series.length} series</h2>
-            <a className="btn btn-success" href="#addSerieForm">Add serie</a>
+            <header>
+                <h1>ApdFlix</h1>
+                <h2>Miguel has seen {series.length} series</h2>
+                <a className="btn btn-success d-flex me-2" href="#addSerieForm">Add a new serie</a>
+            </header>
             <div className="series-grid">
                 {series.map((serie, index) => {
                     return (
@@ -59,8 +61,18 @@ function MyMovies() {
                 })
                 }
             </div>
-            <div id="addSerieForm">
-                <button id="addSerie" className="btn btn-success" onClick={addSerie}>Add serie</button>
+            <div className="lines"></div>
+            <div id="addSerieForm" className="form">
+                <label for="addSerieForm"><h3>Add a new serie</h3></label>
+                <div className="form-floating mb-3">
+                    <input type="text" className="form-control" id="floatingInput" placeholder="Game on thrones" />
+                    <label for="floatingInput">Serie's name</label>
+                </div>
+                <div className="form-floating">
+                    <input type="text" className="form-control" id="floatingPassword" placeholder="image link" />
+                    <label for="floatingPassword">Image's link</label>
+                </div>
+                <button id="addSerie" className="btn btn-outline-success" onClick={addSerie}>Add new serie</button>
             </div>
         </div>
     );
