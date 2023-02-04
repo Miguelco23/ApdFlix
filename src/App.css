@@ -1,13 +1,16 @@
-header{
+.Header{
   margin: 0.5rem 2rem;
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: center;
+  grid-template-columns: 1fr 1fr;
 }
 #header-button{
   max-width: 9rem;
   max-height: 3rem;
   justify-self: right;
+}
+
+.counter{
+  margin: 5rem;
 }
 .series-grid{
   display: grid;

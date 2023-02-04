@@ -1,13 +1,9 @@
 import { useState } from "react";
-function MyMovies({list}) {
+function MyMovies({list, user}) {
    
     return (
         <div className="MyMovies">
-            <header>
-                <h1>ApdFlix</h1>
-                <h2>Miguel has seen {list.length} series</h2>
-                <a className="btn btn-success" href="#addSerieForm" id="header-button">Add a new serie</a>
-            </header>
+            <h2 className="counter"><b>{user}</b> has seen <b style={{"color": "red"}}>{list.length}</b> series</h2>
             <div className="series-grid">
                 {list.map((serie, index) => {
                     return (

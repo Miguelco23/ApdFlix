@@ -1,6 +1,7 @@
 import './App.css';
 import MyMovies from './components/MyMovies'
 import AddSerieForm from './components/AddSerieForm';
+import Header from './components/Header';
 
 let mySeries = [
   { "id": 1, "name": "Naruto", "img": "https://i.imgur.com/LJd6LQu.jpeg" },
@@ -36,7 +37,9 @@ let mySeries = [
 function App() {
   return (
     <div className="App">
-      <MyMovies list={mySeries} />
+      <Header />
+
+      <MyMovies list={mySeries} user="Miguel" />
 
       <div className="lines" />
 
