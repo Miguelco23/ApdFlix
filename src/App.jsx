@@ -80,15 +80,15 @@ let apdSeries = [
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
+      <Home />
       
-      <Header />
+      {/* <Header />
 
       <MyMovies list={mySeries} user="Miguel" />
 
       <div className="lines" />
 
-      <AddSerieForm />
+      <AddSerieForm /> */}
     </div>
   );
 }

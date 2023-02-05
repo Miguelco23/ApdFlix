@@ -1,0 +1,22 @@
+.Home {
+    margin: 5rem auto;
+    border: solid 0.3rem rgb(42, 62, 50);
+    border-radius: 10%;
+    background-color: rgb(106, 140, 106);
+    max-width: 50rem;
+    max-height: 60rem;
+}
+
+img{
+    max-width: 20rem;
+    margin-left: 15rem;
+}
+
+h2{
+    text-align: center;;
+}
+
+#buttons{
+    margin: 0 0 3rem 14rem;
+    max-width: 20rem;
+}
