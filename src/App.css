@@ -1,16 +1,16 @@
-.Header{
-  margin: 0.5rem 2rem;
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-}
-#header-button{
-  max-width: 9rem;
-  max-height: 3rem;
-  justify-self: right;
-}
+.navbar{  
+  margin-top: 0;
+  background-color: rgb(106, 140, 106);
+  height: 4.5rem;
+  }
+
+
+
+
+
 
 .counter{
-  margin: 5rem;
+  margin: 6rem 0 5rem 6rem;
 }
 .series-grid{
   display: grid;

@@ -1,9 +1,9 @@
 import { useState } from "react";
-function MyMovies({list, user}) {
-   
+function MyMovies({ list, user }) {
+
     return (
         <div className="MyMovies">
-            <h2 className="counter"><b>{user}</b> has seen <b style={{"color": "red"}}>{list.length}</b> series</h2>
+            <h2 className="counter"><b>{user}</b> has seen <b style={{ "color": "red" }}>{list.length}</b> series</h2>
             <div className="series-grid">
                 {list.map((serie, index) => {
                     return (
@@ -16,7 +16,7 @@ function MyMovies({list, user}) {
                     );
                 })
                 }
-            </div>  
+            </div>
         </div>
     );
 }
