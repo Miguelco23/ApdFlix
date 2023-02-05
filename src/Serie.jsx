@@ -1,5 +1,4 @@
 import Header from "./components/Header";
-import ReactStars from "react-rating-stars-component";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { useState } from "react";
@@ -14,18 +13,19 @@ function Serie() {
 
 
     const ApiUrl = "https://apdflix-0627-default-rtdb.firebaseio.com/" + userName + "/" + serieName + ".json";
-    
-    
-    
+
+
+
     const getApi = (url) => {
         axios.get(url)
             .then(response => { setSerie(response.data); });
     };
 
     getApi(ApiUrl);
-    
 
-    
+
+
+
 
 
 
@@ -43,15 +43,7 @@ function Serie() {
                                 <h1 className="card-title">{serie.name}</h1>
                                 <p className="card-text review">{serie.review}</p>
                                 <div className="rating-container">
-                                    <p className="card-text rating"><small className="text-muted">Rate: </small></p>
-                                    <ReactStars
-                                        classNames="stars"
-                                        count={5}
-                                        value={serie.rate}
-                                        edit={false}
-                                        size={40}
-                                        activeColor="#ffd700"
-                                    />
+                                    <p className="card-text rating"><small className="text-muted">Rate: {serie.rate}/5 </small></p>
                                 </div>
                             </div>
                         </div>

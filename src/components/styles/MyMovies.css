@@ -2,6 +2,11 @@
     margin: 6rem 6rem 5rem;
     display: grid;
     grid-template-columns: 1fr auto;
+
+  }
+
+  .counter{
+    margin: 0 auto;
   }
 
   .user-count > a{
@@ -18,13 +23,17 @@
 .little-card{
   margin: 10px;
   max-width: 300px;
-  height: 23rem;
+  height: 24rem;
   transition: all 0.3s ease-in-out;
   box-shadow: 3px 2px 2px gray;
 }
 
 .card-img-top{
   height: 18rem;
+}
+
+.card-title{
+  margin-bottom: -0.5rem;
 }
 
 .card-link{

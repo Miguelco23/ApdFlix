@@ -1,6 +1,8 @@
 import "./styles/MyMovies.css";
 import { Link } from "react-router-dom";
 import CountUp from 'react-countup';
+import ReactStars from "react-rating-stars-component";
+
 function MyMovies({ list, user }) {
 
 
@@ -8,7 +10,7 @@ function MyMovies({ list, user }) {
     let array = [];
     for (let serie in list) {
         array.push(list[serie]);
-        
+
     }
 
 
@@ -17,9 +19,9 @@ function MyMovies({ list, user }) {
 
     const counter = () => {
         if (user === "miguelSeries") {
-           return(<h2 className="counter"><b>Miguel</b> has seen <b style={{ "color": "red" }}><CountUp end={array.length} duration={1.5} /></b> series</h2>)
+            return (<h2 className="counter"><b>Miguel</b> has seen <b style={{ "color": "red" }}><CountUp end={array.length} duration={1.5} /></b> series</h2>)
         } else {
-           return (<h2 className="counter"><b>Ana & Miguel</b> have seen <b style={{ "color": "red" }}><CountUp end={array.length} duration={1.5} /></b> series together</h2>)
+            return (<h2 className="counter"><b>Ana & Miguel</b> have seen <b style={{ "color": "red" }}><CountUp end={array.length} duration={1.5} /></b> series together</h2>)
         }
     };
 
@@ -29,7 +31,9 @@ function MyMovies({ list, user }) {
         <div className="MyMovies">
             <div className="user-count">
                 {counter()}
-                <a href="#AddForm" className="btn btn-success">Add a new serie</a>
+                <button type="button" className="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalForm">
+                    Have you seen a new serie?
+                </button>
             </div>
             <div className="series-grid">
                 {array.map((serie, index) => {
@@ -41,6 +45,14 @@ function MyMovies({ list, user }) {
                                 <img src={serie.img} className="card-img-top" alt={serie.name} />
                                 <div className="card-body">
                                     <h5 className="card-title">{serie.name}</h5>
+                                    <ReactStars
+                                        classNames="stars"
+                                        count={5}
+                                        value={serie.rate}
+                                        edit={false}
+                                        size={20}
+                                        activeColor="#ffd700"
+                                    />
                                 </div>
                             </div>
                         </Link>
