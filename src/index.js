@@ -6,23 +6,17 @@ import Home from './Home';
 import Serie from './Serie'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-
-
 const AppRouter = createBrowserRouter([
     {
         path: '/',
         element: <Home />
     },
     {
-        path: 'miguel',
-        element: <App user={"Miguel"}/>
+        path: '/:user',
+        element: <App />
     },
     {
-        path: 'apd',
-        element: <App user={"APD"}/>
-    },
-    {
-        path: '/:serieName',
+        path: '/:userName/:serieName',
         element: <Serie />
     }
 ]);

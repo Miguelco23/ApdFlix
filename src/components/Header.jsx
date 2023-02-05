@@ -16,8 +16,8 @@ function Header() {
                                     Choose user 
                                 </button>
                                 <ul className="dropdown-menu dropdown-menu-dark">
-                                    <li><Link className="dropdown-item" to={"/apd"}>APD</Link></li>
-                                    <li><Link className="dropdown-item" to={"/miguel"}>Miguel</Link></li>
+                                    <li><Link className="dropdown-item" to={"/apdSeries"}>APD</Link></li>
+                                    <li><Link className="dropdown-item" to={"/miguelSeries"}>Miguel</Link></li>
                                 </ul>
                             </li>
                         </ul>

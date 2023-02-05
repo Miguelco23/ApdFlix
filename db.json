@@ -1,0 +1,396 @@
+{
+    "apdSeries": {
+        "Dahmer": {
+            "name": "Dahmer",
+            "img": "https://m.economictimes.com/thumb/msid-94355879,width-1060,height-1268,resizemode-4,imgsize-104160/dahmer-monster.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "3_porciento": {
+            "name": "3%",
+            "img": "https://es.web.img2.acsta.net/pictures/18/04/17/10/38/1418812.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Suits": {
+            "name": "Suits",
+            "img": "https://es.web.img2.acsta.net/pictures/14/03/28/10/18/433386.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Palpito": {
+            "name": "Palpito",
+            "img": "https://pics.filmaffinity.com/P_lpito_Serie_de_TV-187571288-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "La_casa_de_papel": {
+            "name": "La casa de papel",
+            "img": "https://pics.filmaffinity.com/La_casa_de_papel_Serie_de_TV-844739080-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Bienvenidos_a_Eden": {
+            "name": "Bienvenidos a Eden",
+            "img": "https://es.web.img3.acsta.net/pictures/22/04/12/00/58/3734814.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Capitani": {
+            "name": "Capitani",
+            "img": "https://pics.filmaffinity.com/Capitani_Serie_de_TV-558081172-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "El_diablo_en_Ohio": {
+            "name": "El diablo en Ohio",
+            "img": "https://elcomercio.pe/resizer/VB2cbEXNewgobzawQkiK_6-9SM8=/620x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/I2CYRBGL5ZARLEQTRK7HIHZDXE.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "How_to_get_away_with_murder": {
+            "name": "How to get away with murder",
+            "img": "https://es.web.img3.acsta.net/pictures/17/09/08/08/59/0729955.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "El_inocente":{
+            "name": "El inocente",
+            "img": "https://pics.filmaffinity.com/El_inocente_Miniserie_de_TV-884123662-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Maldición_de_Bly_minor": {
+            "name": "Maldición de Bly minor",
+            "img": "https://pics.filmaffinity.com/La_maldici_n_de_Bly_Manor_Serie_de_TV-134392524-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Misa_de_media_noche": {
+            "name": "Misa de media noche",
+            "img": "https://pics.filmaffinity.com/Misa_de_medianoche_Miniserie_de_TV-383808751-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Sweet_tooth": {
+            "name": "Sweet tooth",
+            "img": "https://pics.filmaffinity.com/Sweet_Tooth_El_ni_o_ciervo_Serie_de_TV-973251548-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Lupin": {
+            "name": "Lupin",
+            "img": "https://pics.filmaffinity.com/Lupin_Serie_de_TV-507298132-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Death_note": {
+            "name": "Death note",
+            "img": "https://pics.filmaffinity.com/Death_Note_Serie_de_TV-660373023-mmed.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Anohana": {
+            "name": "Anohana",
+            "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/75d87960c388efc544be093603b8e9f0.jpe",
+            "review": "",
+            "rate": 0
+        },
+        "El_Caso_Hartung": {
+            "name": "El Caso Hartung",
+            "img": "https://pics.filmaffinity.com/El_caso_Hartung_Serie_de_TV-761412094-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Black_mirror": {
+            "name": "Black mirror",
+            "img": "https://es.web.img3.acsta.net/pictures/16/11/23/19/25/592195.png",
+            "review": "",
+            "rate": 0
+        },
+        "Ratched": {
+            "name": "Ratched",
+            "img": "https://pics.filmaffinity.com/Ratched_Serie_de_TV-210258381-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Parasite": {
+            "name": "Parasite",
+            "img": "https://es.web.img3.acsta.net/pictures/19/07/12/10/57/3901004.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Fate_Winx": {
+            "name": "Fate Winx",
+            "img": "https://es.web.img3.acsta.net/pictures/21/01/22/10/57/0411816.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Sandman": {
+            "name": "Sandman",
+            "img": "https://www.criticaspolares.com/wp-content/uploads/2022/08/resena-the-sandman-serie-2022.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Esta_mierda_me_supera": {
+            "name": "Esta mierda me supera",
+            "img": "https://pics.filmaffinity.com/Esta_mierda_me_supera_Miniserie_de_TV-153889981-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Arcane": {
+            "name": "Arcane",
+            "img": "https://pics.filmaffinity.com/Arcane_League_of_Legends_Serie_de_TV-624235408-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Sabes_quién_es": {
+            "name": "Sabes quién es",
+            "img": "https://es.web.img3.acsta.net/pictures/22/02/08/21/54/5988987.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Archivo_81": {
+            "name": "Archivo 81",
+            "img": "https://pics.filmaffinity.com/Archivo_81_Serie_de_TV-179082557-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Yo_nunca": {
+            "name": "Yo nunca",
+            "img": "https://es.web.img3.acsta.net/pictures/20/04/17/09/38/0786301.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Estamos_muertos": {
+            "name": "Estamos muertos",
+            "img": "https://mx.web.img2.acsta.net/pictures/22/01/14/19/22/2108595.png",
+            "review": "",
+            "rate": 0
+        },
+        "Los_asesinatos_de_Valhala": {
+            "name": "Los asesinatos de Valhala",
+            "img": "https://pics.filmaffinity.com/Los_asesinatos_del_Valhalla_Serie_de_TV-117692426-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "La_dama_de_los_muertos": {
+            "name": "La dama de los muertos",
+            "img": "https://bolavip.com/export/sites/bolavip/img/2023/01/09/la_dama_de_los_muertos_netflix_3.jpg_1427241660.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Only_murders_in_the_building": {
+            "name": "Only murders in the building",
+            "img": "https://pics.filmaffinity.com/Only_Murders_in_the_Building_Serie_de_TV-579746694-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Recreo": {
+            "name": "Recreo",
+            "img": "https://pics.filmaffinity.com/Lleg_el_recreo_Serie_de_TV-876351506-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Pablo_Escobar": {
+            "name": "Pablo Escobar",
+            "img": "https://pics.filmaffinity.com/Pablo_Escobar_el_patr_n_del_mal_Serie_de_TV-432126437-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "The_end_of_the_fucking_world": {
+            "name": "The end of the fucking world",
+            "img": "https://pics.filmaffinity.com/the_end_of_the_f_ing_world-750078085-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Alguien_está_mintiendo": {
+            "name": "Alguien está mintiendo",
+            "img": "https://pics.filmaffinity.com/Alguien_est_mintiendo_Serie_de_TV-871151023-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Merlina": {
+            "name": "Merlina",
+            "img": "https://pics.filmaffinity.com/Merlina_Serie_de_TV-938002261-large.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Sex_education": {
+            "name": "Sex education",
+            "img": "https://es.web.img2.acsta.net/pictures/19/01/03/09/01/2915581.jpg",
+            "review": "",
+            "rate": 0
+        }
+    },
+    "miguelSeries": {
+        "Naruto": {
+            "name": "Naruto",
+            "img": "https://i.imgur.com/LJd6LQu.jpeg",
+            "review": "",
+            "rate": 0
+        },
+        "Naruto_Shippuden": {
+            "name": "Naruto Shippuden",
+            "img": "https://i.imgur.com/bmiCtQ9.png",
+            "review": "",
+            "rate": 0
+        },
+        "Soul_eater": {
+            "name": "Soul eater",
+            "img": "https://upload.wikimedia.org/wikipedia/en/f/fe/Soul_Eater_manga_volume_1.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "No_game_no_life": {
+            "name": "No game no life",
+            "img": "https://m.media-amazon.com/images/M/MV5BZTI1MjY3N2YtODczMy00MGQwLWI2NWMtODQwZTE3NTY5OTExXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Elite": {
+            "name": "Elite",
+            "img": "https://m.media-amazon.com/images/M/MV5BYmU5N2YzYjQtM2Q4Yi00NWY4LWI5NDQtMzE4OTlhY2Q5NmJlXkEyXkFqcGdeQXVyMTMxNjUyMDkx._V1_.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Sword_art_online": {
+            "name": "Sword art online",
+            "img": "https://es.web.img3.acsta.net/pictures/19/07/09/11/04/5921608.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Big_mouth": {
+            "name": "Big mouth",
+            "img": "https://images.justwatch.com/poster/257258766/s718/big-mouth.%7Bformat%7D",
+            "review": "",
+            "rate": 0
+        },
+        "El_robo_del_siglo": {
+            "name": "El robo del siglo",
+            "img": "http://www.elespectadorimaginario.com/wp-content/webpc-passthru.php?src=http://www.elespectadorimaginario.com/wp-content/uploads/el_robo_del_siglo_1.jpg&nocache=1",
+            "review": "",
+            "rate": 0
+        },
+        "Solar_opposites": {
+            "name": "Solar opposites",
+            "img": "https://lumiere-a.akamaihd.net/v1/images/solar_opposites_4x5_las_e0333d41.png",
+            "review": "",
+            "rate": 0
+        },
+        "Alice_in_borderland": {
+            "name": "Alice in borderland",
+            "img": "https://flxt.tmsimg.com/assets/p18829068_b_h9_aa.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Super_campeones": {
+            "name": "Super campeones",
+            "img": "https://www.tsubasa-dreamteam.com/assets/images/common/sp/top/main_video_cover-4-en@2x.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Blue_exorcist": {
+            "name": "Blue exorcist",
+            "img": "https://cdn.myanimelist.net/images/anime/10/75195.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Maniac": {
+            "name": "Maniac",
+            "img": "https://www.tvguide.com/a/img/catalog/provider/1/1/1-6535600661.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Castlevania": {
+            "name": "Castlevania",
+            "img": "https://es.web.img2.acsta.net/pictures/21/05/10/23/27/0599462.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Devilman_crybaby": {
+            "name": "Devilman crybaby",
+            "img": "https://m.media-amazon.com/images/M/MV5BZjYxMGRlZDAtYTU5Ny00NzhmLTgzYzgtNjNjNTZiZDQ5ZjU0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "B_the_beginning": {
+            "name": "B the beginning",
+            "img": "https://upload.wikimedia.org/wikipedia/en/4/42/B_the_Beginning_Main_Visual.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "One_ punch_ man": {
+            "name": "One punch man",
+            "img": "https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/d8eed44e3d48097ab5fd36b6815fc18e.jpe",
+            "review": "",
+            "rate": 0
+        },
+        "Rick_y_morty": {
+            "name": "Rick y morty",
+            "img": "https://r1.abcimg.es/resizer/resizer.php?imagen=https%3A%2F%2Fstatic3.abc.es%2Fmedia%2Fseries%2F000%2F003%2F130%2Frick-y-morty-1.jpg&nuevoancho=683&medio=abc",
+            "review": "",
+            "rate": 0
+        },
+        "Little_witch_academia": {
+            "name": "Little witch academia",
+            "img": "https://images.cdn1.buscalibre.com/fit-in/360x360/55/56/55563ba0608a3135e5251810146f1ae4.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Tokyo_Ghoul": {
+            "name": "Tokyo Ghoul",
+            "img": "https://es.web.img2.acsta.net/pictures/15/11/04/15/59/314681.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "7_pecados_capitales": {
+            "name": "7 pecados capitales",
+            "img": "https://flxt.tmsimg.com/assets/p12296875_b_v9_aa.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Los_Simpsons": {
+            "name": "Los Simpsons",
+            "img": "https://depor.com/resizer/2ZrnS5PYqG0W2zEHqVj7ccQHx7A=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/BXOCB2SGV5DDLKSKXHCNTDZPDI.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Bojackn_Horseman": {
+            "name": "Bojackn Horseman",
+            "img": "https://m.media-amazon.com/images/M/MV5BYWQwMDNkM2MtODU4OS00OTY3LTgwOTItNjE2Yzc0MzRkMDllXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Final_space": {
+            "name": "Final space",
+            "img": "https://m.media-amazon.com/images/M/MV5BODRjZGY3ZDktZGIxOC00MWUzLTg1N2EtNDM1NTQ2ZTkxYjc1XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Love_death_&_robots": {
+            "name": "Love death & robots",
+            "img": "https://m.media-amazon.com/images/M/MV5BYTNiYTNkNTAtYzE3ZS00ZDQ1LWEwZTYtZjI1NzYzMWJjY2U4XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Hellsing": {
+            "name": "Hellsing",
+            "img": "https://m.media-amazon.com/images/M/MV5BZTkyNjA0YTItNTBmNC00ZjFiLTg0YWItOGQ4NGZkMmQ4NDI0XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Mirai_Nikk": {
+            "name": "Mirai Nikk",
+            "img": "https://http2.mlstatic.com/D_NQ_NP_690878-MCO49516513841_032022-O.jpg",
+            "review": "",
+            "rate": 0
+        },
+        "Los_juegos_del_calamar": {
+            "name": "Los juegos del calamar",
+            "img": "https://m.media-amazon.com/images/M/MV5BYWE3MDVkN2EtNjQ5MS00ZDQ4LTliNzYtMjc2YWMzMDEwMTA3XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
+            "review": "",
+            "rate": 0
+        }
+    }
+}
