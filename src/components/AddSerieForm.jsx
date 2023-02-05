@@ -2,18 +2,19 @@ import "./styles/Form.css";
 import { useState } from "react";
 
 function AddSerieForm() {
-    const [newSerie, setNewSerie] = useState({ name: "", img: "" });
+    const [newSerie, setNewSerie] = useState({ name: "", img: "", review: "" });
+
 
     const handleInputs = (event) => {
         const { name, value } = event.target;
 
         setNewSerie((prev) => {
-            return {...prev, [name]: value };
+            return { ...prev, [name]: value };
         });
     };
 
     const addSerie = (event) => {
-        alert(newSerie.name + " has been added to the database!"); 
+        alert(newSerie.name + " has been added to the database!");
     }
     return (
         <div className="AddSerieForm form" id="AddForm">
@@ -25,6 +26,10 @@ function AddSerieForm() {
             <div className="form-floating">
                 <input type="text" name="img" className="form-control" id="floatingPassword" placeholder="image link" onChange={handleInputs} />
                 <label htmlFor="floatingPassword">Image's link</label>
+            </div>
+            <div className="input-group">
+                <span className="input-group-text">Serie's review</span>
+                <textarea className="form-control" aria-label="With textarea" />
             </div>
             <button id="addSerie" className="btn btn-outline-success" onClick={addSerie}>Add new serie</button>
         </div>

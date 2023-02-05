@@ -1,4 +1,5 @@
-import "./styles/Home.css";
+import { Link } from 'react-router-dom';
+import "./Home.css";
 
 function Home() {
     return (
@@ -6,8 +7,8 @@ function Home() {
             <img src="https://i.imgur.com/hDAUSpp.png" alt="" />
             <h2>Series... Series everywhere</h2>
             <div class="d-grid gap-2" id="buttons">
-                <a href="" className="btn btn-outline-dark btn-lg">Apd Series</a>
-                <a href="" className="btn btn-outline-dark btn-lg">Miguel Series</a>
+                <Link to={"/apd"} className="btn btn-outline-dark btn-lg">Apd Series</Link>
+                <Link to={"/miguel"} className="btn btn-outline-dark btn-lg">Miguel Series</Link>
             </div>
 
         </div >

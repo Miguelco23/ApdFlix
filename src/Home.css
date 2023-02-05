@@ -7,12 +7,12 @@
     max-height: 60rem;
 }
 
-img{
+.Home > img{
     max-width: 20rem;
     margin-left: 15rem;
 }
 
-h2{
+.Home > h2{
     text-align: center;;
 }
 

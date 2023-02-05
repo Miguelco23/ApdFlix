@@ -1,0 +1,31 @@
+.review-box > .card{
+    margin: 8rem auto;
+    max-width: 80rem;
+    max-height: 35rem;
+    box-shadow: 20px 20px 100px black;
+}
+
+.card-img {
+    max-height: 35rem;
+}
+
+.review{
+    font-size: 1.5rem;
+}
+
+.rating-container{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-left: -1rem;
+}
+
+.rating{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.stars{
+    padding-top: 0.7rem;
+    margin: 0;
+}
+

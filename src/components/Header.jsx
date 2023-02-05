@@ -1,13 +1,14 @@
 import "./styles/Header.css";
+import { Link } from "react-router-dom"
 
 function Header() {
     return (
         <div className="Header">
             <nav className="navbar fixed-top navbar-expand-lg ">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="./">
+                    <Link className="navbar-brand" to={"/"}>
                         <img src="https://i.imgur.com/hDAUSpp.png" alt="ApdFlix" width="70" height="70" class="d-inline-block align-text-top" />
-                    </a>
+                    </Link>
                     <div className="collapse navbar-collapse" id="navbarNavDarkDropdown">
                         <ul className="navbar-nav">
                             <li className="nav-item dropdown">
@@ -15,8 +16,8 @@ function Header() {
                                     Choose user 
                                 </button>
                                 <ul className="dropdown-menu dropdown-menu-dark">
-                                    <li><a className="dropdown-item" href="#">APD</a></li>
-                                    <li><a className="dropdown-item" href="#">Miguel</a></li>
+                                    <li><Link className="dropdown-item" to={"/apd"}>APD</Link></li>
+                                    <li><Link className="dropdown-item" to={"/miguel"}>Miguel</Link></li>
                                 </ul>
                             </li>
                         </ul>

@@ -1,4 +1,5 @@
 import "./styles/MyMovies.css";
+import { Link } from "react-router-dom";
 function MyMovies({ list, user }) {
 
     return (
@@ -10,12 +11,14 @@ function MyMovies({ list, user }) {
             <div className="series-grid">
                 {list.map((serie, index) => {
                     return (
-                        <div className="card" key={index}>
-                            <img src={serie.img} className="card-img-top" alt={serie.name} />
-                            <div className="card-body">
-                                <h5 className="card-title">{serie.name}</h5>
+                        <Link to={"/" + serie.name} key={index}>
+                            <div className="card">
+                                <img src={serie.img} className="card-img-top" alt={serie.name} />
+                                <div className="card-body">
+                                    <h5 className="card-title">{serie.name}</h5>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     );
                 })
                 }

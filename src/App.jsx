@@ -1,11 +1,9 @@
 import './App.css';
-import { BrowserRouter, link } from 'react-router';
 import MyMovies from './components/MyMovies';
 import AddSerieForm from './components/AddSerieForm';
 import Header from './components/Header';
-import Home from './components/Home';
 
-let mySeries = [
+let miguelSeries = [
   { "name": "Naruto", "img": "https://i.imgur.com/LJd6LQu.jpeg" },
   { "name": "Naruto Shippuden", "img": "https://i.imgur.com/bmiCtQ9.png" },
   { "name": "Soul eater", "img": "https://upload.wikimedia.org/wikipedia/en/f/fe/Soul_Eater_manga_volume_1.jpg" },
@@ -77,18 +75,24 @@ let apdSeries = [
   { "name": "Sex education", "img": "" }
 ]
 
-function App() {
+function App({user}) {
+  let db = [];
+
+  if (user === "Miguel"){
+    db = miguelSeries;
+  } else if (user === "APD"){
+    db = apdSeries;
+  }
+  
   return (
     <div className="App">
-      <Home />
-      
-      {/* <Header />
+      <Header />
 
-      <MyMovies list={mySeries} user="Miguel" />
+      <MyMovies list={db} user={user} />
 
       <div className="lines" />
 
-      <AddSerieForm /> */}
+      <AddSerieForm />
     </div>
   );
 }
