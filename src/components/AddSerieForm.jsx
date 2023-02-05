@@ -15,7 +15,7 @@ function AddSerieForm() {
         alert(newSerie.name + " has been added to the database!"); 
     }
     return (
-        <div className="AddSerieForm form">
+        <div className="AddSerieForm form" id="AddForm">
             <label htmlFor="addSerieForm"><h3>Add a new serie</h3></label>
             <div className="form-floating mb-3">
                 <input type="text" name="name" className="form-control" id="floatingInput" placeholder="Game on thrones" onChange={handleInputs} />
