@@ -1,8 +1,9 @@
 import "./styles/Form.css";
 import { useState } from "react";
+import ReactStars from "react-rating-stars-component";
 
 function AddSerieForm() {
-    const [newSerie, setNewSerie] = useState({ name: "", img: "", review: "" });
+    const [newSerie, setNewSerie] = useState({ name: "", img: "", review: "", rate: 0 });
 
 
     const handleInputs = (event) => {
@@ -13,8 +14,15 @@ function AddSerieForm() {
         });
     };
 
+    const newRating = (newRate) => {
+        setNewSerie((prev) => {
+            return {...prev, rate: newRate };
+            
+        });
+    };
+
     const addSerie = (event) => {
-        alert(newSerie.name + " has been added to the database!");
+        alert(`Name: ${newSerie.name} \nImg: ${newSerie.img} \nReview: ${newSerie.review} \nRate: ${newSerie.rate}`);
     }
     return (
         <div className="AddSerieForm form" id="AddForm">
@@ -29,8 +37,16 @@ function AddSerieForm() {
             </div>
             <div className="input-group">
                 <span className="input-group-text">Serie's review</span>
-                <textarea className="form-control" aria-label="With textarea" />
+                <textarea className="form-control" name="review" aria-label="With textarea" onChange={handleInputs} />
             </div>
+            <ReactStars
+                name="rate"
+                count={5}
+                onChange={newRating}
+                size={50}
+                isHalf={true}
+                activeColor="#ffd700"
+            />
             <button id="addSerie" className="btn btn-outline-success" onClick={addSerie}>Add new serie</button>
         </div>
     );
