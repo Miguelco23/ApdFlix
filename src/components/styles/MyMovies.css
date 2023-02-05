@@ -1,0 +1,25 @@
+.user-count{
+    margin: 6rem 6rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+
+  .user-count > a{
+    max-width: 9rem;
+    max-height: 4rem;
+  }
+
+.series-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  margin: 5rem 5rem 10rem 5rem;
+}
+
+.card{
+  margin: 10px;
+  max-width: 300px;
+}
+
+.card-img-top{
+  max-height: 300px;
+}

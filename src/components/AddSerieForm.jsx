@@ -1,3 +1,4 @@
+import "./styles/Form.css";
 import { useState } from "react";
 
 function AddSerieForm() {

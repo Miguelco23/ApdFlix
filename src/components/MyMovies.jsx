@@ -1,4 +1,4 @@
-import { useState } from "react";
+import "./styles/MyMovies.css";
 function MyMovies({ list, user }) {
 
     return (

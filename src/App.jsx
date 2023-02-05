@@ -1,7 +1,9 @@
 import './App.css';
-import MyMovies from './components/MyMovies'
+import { BrowserRouter, link } from 'react-router';
+import MyMovies from './components/MyMovies';
 import AddSerieForm from './components/AddSerieForm';
 import Header from './components/Header';
+import Home from './components/Home';
 
 let mySeries = [
   { "name": "Naruto", "img": "https://i.imgur.com/LJd6LQu.jpeg" },
@@ -78,6 +80,8 @@ let apdSeries = [
 function App() {
   return (
     <div className="App">
+      {/* <Home /> */}
+      
       <Header />
 
       <MyMovies list={mySeries} user="Miguel" />
