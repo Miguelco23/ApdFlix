@@ -27,7 +27,7 @@ function App() {
 
       <MyMovies list={db} user={user} />
 
-      <div className="lines" />
+      {/* <div className="lines" /> */}
 
       <AddSerieForm />
     </div>

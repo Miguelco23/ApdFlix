@@ -18,12 +18,13 @@
 .little-card{
   margin: 10px;
   max-width: 300px;
+  height: 23rem;
   transition: all 0.3s ease-in-out;
   box-shadow: 3px 2px 2px gray;
 }
 
 .card-img-top{
-  max-height: 300px;
+  height: 18rem;
 }
 
 .card-link{
