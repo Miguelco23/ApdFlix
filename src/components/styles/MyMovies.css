@@ -15,11 +15,23 @@
   margin: 5rem 5rem 10rem 5rem;
 }
 
-.card{
+.little-card{
   margin: 10px;
   max-width: 300px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 3px 2px 2px gray;
 }
 
 .card-img-top{
   max-height: 300px;
+}
+
+.card-link{
+  color: black;
+  text-decoration: 0;
+}
+
+.little-card:hover{
+  transform: scale(1.15);
+  color: black;
 }

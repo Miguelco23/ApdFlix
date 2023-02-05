@@ -38,7 +38,7 @@ let apdSeries = [
   { "name": "Dahmer", "img": "" },
   { "name": "3%", "img": "" },
   { "name": "Suits", "img": "" },
-  { "name": "Papito", "img": "" },
+  { "name": "Palpito", "img": "" },
   { "name": "La casa de papel", "img": "" },
   { "name": "Bienvenidos a Eden", "img": "" },
   { "name": "Capitani", "img": "" },

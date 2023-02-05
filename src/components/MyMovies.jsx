@@ -11,8 +11,8 @@ function MyMovies({ list, user }) {
             <div className="series-grid">
                 {list.map((serie, index) => {
                     return (
-                        <Link to={"/" + serie.name} key={index}>
-                            <div className="card">
+                        <Link to={"/" + serie.name} key={index} className="card-link">
+                            <div className="card little-card">
                                 <img src={serie.img} className="card-img-top" alt={serie.name} />
                                 <div className="card-body">
                                     <h5 className="card-title">{serie.name}</h5>
