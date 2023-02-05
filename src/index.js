@@ -22,8 +22,8 @@ const AppRouter = createBrowserRouter([
         element: <App user={"APD"}/>
     },
     {
-        path: 'naruto',
-        element: <Serie serie={"Naruto"}/>
+        path: '/:serieName',
+        element: <Serie />
     }
 ]);
 
