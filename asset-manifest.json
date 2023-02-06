@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ApdFlix/static/css/main.12735ba9.css",
-    "main.js": "/ApdFlix/static/js/main.e79760c2.js",
+    "main.css": "/ApdFlix/static/css/main.91c8d1bd.css",
+    "main.js": "/ApdFlix/static/js/main.3434bc78.js",
     "index.html": "/ApdFlix/index.html",
-    "main.12735ba9.css.map": "/ApdFlix/static/css/main.12735ba9.css.map",
-    "main.e79760c2.js.map": "/ApdFlix/static/js/main.e79760c2.js.map"
+    "main.91c8d1bd.css.map": "/ApdFlix/static/css/main.91c8d1bd.css.map",
+    "main.3434bc78.js.map": "/ApdFlix/static/js/main.3434bc78.js.map"
   },
   "entrypoints": [
-    "static/css/main.12735ba9.css",
-    "static/js/main.e79760c2.js"
+    "static/css/main.91c8d1bd.css",
+    "static/js/main.3434bc78.js"
   ]
 }
