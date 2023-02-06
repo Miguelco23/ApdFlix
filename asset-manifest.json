@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/apdflix/static/css/main.12735ba9.css",
-    "main.js": "/apdflix/static/js/main.9663672a.js",
-    "index.html": "/apdflix/index.html",
-    "main.12735ba9.css.map": "/apdflix/static/css/main.12735ba9.css.map",
-    "main.9663672a.js.map": "/apdflix/static/js/main.9663672a.js.map"
+    "main.css": "/ApdFlix/static/css/main.12735ba9.css",
+    "main.js": "/ApdFlix/static/js/main.9663672a.js",
+    "index.html": "/ApdFlix/index.html",
+    "main.12735ba9.css.map": "/ApdFlix/static/css/main.12735ba9.css.map",
+    "main.9663672a.js.map": "/ApdFlix/static/js/main.9663672a.js.map"
   },
   "entrypoints": [
     "static/css/main.12735ba9.css",
