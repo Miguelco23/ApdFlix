@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/apdflix/static/css/main.12735ba9.css",
-    "main.js": "/apdflix/static/js/main.69702031.js",
-    "index.html": "/apdflix/index.html",
-    "main.12735ba9.css.map": "/apdflix/static/css/main.12735ba9.css.map",
-    "main.69702031.js.map": "/apdflix/static/js/main.69702031.js.map"
+    "main.css": "/apdflix/home/static/css/main.12735ba9.css",
+    "main.js": "/apdflix/home/static/js/main.69702031.js",
+    "index.html": "/apdflix/home/index.html",
+    "main.12735ba9.css.map": "/apdflix/home/static/css/main.12735ba9.css.map",
+    "main.69702031.js.map": "/apdflix/home/static/js/main.69702031.js.map"
   },
   "entrypoints": [
     "static/css/main.12735ba9.css",
