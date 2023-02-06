@@ -11,6 +11,9 @@
 
 .review{
     font-size: 1.5rem;
+    margin: 2rem 0 0 0;
+    text-align: justify;
+    max-width: 30rem;
 }
 
 .rating-container{

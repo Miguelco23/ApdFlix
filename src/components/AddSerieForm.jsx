@@ -1,8 +1,9 @@
 import "./styles/Form.css";
 import { useState } from "react";
 import ReactStars from "react-rating-stars-component";
+import axios from "axios";
 
-function AddSerieForm() {
+function AddSerieForm({ url }) {
     const [newSerie, setNewSerie] = useState({ name: "", img: "", review: "", rate: 0 });
 
 
@@ -21,8 +22,17 @@ function AddSerieForm() {
         });
     };
 
-    const addSerie = (event) => {
-        alert(`Name: ${newSerie.name} \nImg: ${newSerie.img} \nReview: ${newSerie.review} \nRate: ${newSerie.rate}`);
+    const addSerie = () => {
+        console.log(newSerie);
+        let postName = newSerie.name.replace(/ /g, "_");
+        console.log(postName);
+        console.log(url + postName);
+
+        alert(` Se guardo la serie:\nName: ${newSerie.name} \nImg: ${newSerie.img} \nReview: ${newSerie.review} \nRate: ${newSerie.rate}`);
+        axios.put(url + postName+".json", {name: newSerie.name, img: newSerie.img, review: newSerie.review, rate: newSerie.rate}).then((res) => { })
+            .catch(error => { alert("Error al insertar serie en la base de datos: " + error); });
+
+
     }
     return (
         <div className="AddSerieForm form" id="AddForm">

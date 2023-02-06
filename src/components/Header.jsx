@@ -6,7 +6,7 @@ function Header() {
         <div className="Header">
             <nav className="navbar fixed-top navbar-expand-lg ">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to={"/"}>
+                    <Link className="navbar-brand" to={"/ApdFlix"}>
                         <img src="https://i.imgur.com/hDAUSpp.png" alt="ApdFlix" width="70" height="70" class="d-inline-block align-text-top" />
                     </Link>
                     <div className="collapse navbar-collapse" id="navbarNavDarkDropdown">
@@ -16,8 +16,8 @@ function Header() {
                                     Choose user 
                                 </button>
                                 <ul className="dropdown-menu dropdown-menu-dark">
-                                    <li><Link className="dropdown-item" to={"/apdSeries"}>APD</Link></li>
-                                    <li><Link className="dropdown-item" to={"/miguelSeries"}>Miguel</Link></li>
+                                    <li><Link className="dropdown-item" to={"/ApdFlix/apdSeries"}>APD</Link></li>
+                                    <li><Link className="dropdown-item" to={"/ApdFlix/miguelSeries"}>Miguel</Link></li>
                                 </ul>
                             </li>
                         </ul>

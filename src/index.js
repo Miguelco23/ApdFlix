@@ -8,15 +8,15 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const AppRouter = createBrowserRouter([
     {
-        path: '/',
+        path: '/ApdFlix',
         element: <Home />
     },
     {
-        path: '/:user',
+        path: 'ApdFlix/:user',
         element: <App />
     },
     {
-        path: '/:userName/:serieName',
+        path: 'ApdFlix/:userName/:serieName',
         element: <Serie />
     }
 ]);

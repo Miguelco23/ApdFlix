@@ -11,14 +11,16 @@ function App() {
   const user = useParams().user;
 
   // eslint-disable-next-line
-  const ApiUrl = ("https://apdflix-0627-default-rtdb.firebaseio.com/" + user + "/" + ".json");
+  const ApiUrl = ("https://apdflix-0627-default-rtdb.firebaseio.com/"+user+"/");
 
   const getApi = (url) => {
     axios.get(url)
-      .then(response => { setDb(response.data); });
+      .then(response => { setDb(response.data); })
+      .catch(error => { alert("Error al leer la base de datos: "+error); });
+      
   };
 
-  getApi(ApiUrl);
+  getApi(ApiUrl + ".json");
   
 
   return (
@@ -29,7 +31,7 @@ function App() {
 
       {/* <div className="lines" /> */}
 
-      <AddSerieForm />
+      <AddSerieForm url={ApiUrl} />
     </div>
   );
 }
