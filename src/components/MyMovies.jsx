@@ -1,7 +1,7 @@
 import "./styles/MyMovies.css";
 import { Link } from "react-router-dom";
 import CountUp from 'react-countup';
-import ReactStars from "react-rating-stars-component";
+import ReactStars from "react-stars";
 
 function MyMovies({ list, user }) {
 
@@ -40,8 +40,8 @@ function MyMovies({ list, user }) {
                     return (
                         <Link to={{
                             pathname: ("./" + serie.name.replace(/ /g, "_").replace("%", "_porciento"))
-                        }} key={index} className="card-link">
-                            <div className="card little-card">
+                        }} key={index} id={serie.name.replace(/ /g, "_")} className="card-link">
+                            <div className="card little-card" >
                                 <img src={serie.img} className="card-img-top" alt={serie.name} />
                                 <div className="card-body">
                                     <h5 className="card-title">{serie.name}</h5>
@@ -52,6 +52,7 @@ function MyMovies({ list, user }) {
                                         edit={false}
                                         size={20}
                                         activeColor="#ffd700"
+                                        isHalf={true}
                                     />
                                 </div>
                             </div>

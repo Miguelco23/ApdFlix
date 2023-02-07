@@ -1,5 +1,7 @@
-.navbar{  
-    margin-top: 0;
-    background-color: rgb(106, 140, 106);
-    height: 4.5rem;
-    }
+.navbar {
+    background-color: rgb(68, 143, 82);
+}
+
+.navbar-brand>img {
+    height: 3rem;
+}

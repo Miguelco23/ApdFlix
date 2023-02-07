@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { useState } from "react";
+import ReactStars from "react-stars";
 
 
 import "./serie.css";
@@ -43,7 +44,15 @@ function Serie() {
                                 <h1 className="card-title">{serie.name}</h1>
                                 <p className="card-text review">{serie.review}</p>
                                 <div className="rating-container">
-                                    <p className="card-text rating"><small className="text-muted">Rate: {serie.rate}/5 </small></p>
+                                    <p className="card-text rating"><div className="text-muted">Rate: </div></p>
+                                    <ReactStars
+                                        value={serie.rate}
+                                        count={5}
+                                        edit={false}
+                                        activeColor="#ffd700"
+                                        isHalf={true}
+                                        size={30}
+                                     />
                                 </div>
                             </div>
                         </div>
