@@ -2,7 +2,7 @@
   "name": "apd-cinema",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://miguelco23.githnnub.io/ApdFlix/",
+  "homepage": "https://miguelco23.github.io/ApdFlix/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",

@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import Home from './Home';
 import Serie from './Serie'
+import NoFound from './NoFound';
+
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const AppRouter = createBrowserRouter([
@@ -18,6 +20,10 @@ const AppRouter = createBrowserRouter([
     {
         path: 'ApdFlix/:userName/:serieName',
         element: <Serie />
+    },
+    {
+        path: '*',
+        element: <NoFound />
     }
 ]);
 
