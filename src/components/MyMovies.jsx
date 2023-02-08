@@ -29,12 +29,12 @@ function MyMovies({ list, user }) {
 
 
         <div className="MyMovies">
-            <div className="user-count">
                 {counter()}
-                <button type="button" className="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalForm">
-                    Have you seen a new serie?
+
+                <button type="button" className="btn btn-success new-serie" data-bs-toggle="modal" data-bs-target="#modalForm">
+                    New serie
                 </button>
-            </div>
+
             <div className="series-grid">
                 {array.map((serie, index) => {
                     return (
