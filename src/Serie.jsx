@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useState } from "react";
 import ReactStars from "react-stars";
@@ -24,6 +24,11 @@ function Serie() {
 
     getApi(ApiUrl);
 
+    const navigate = useNavigate();
+    const goBack = () => {
+        navigate(-1);
+    };
+
 
 
 
@@ -33,6 +38,7 @@ function Serie() {
     return (
         <div className="Serie">
             <Header />
+            <button type="button" className="btn btn-danger btn-lg" id="back-button" onClick={goBack}><i className="fa-solid fa-arrow-left"></i></button>
             <div className="review-box container-fluid">
                 <div className="card mb-3">
                     <div className="row g-0">

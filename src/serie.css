@@ -1,18 +1,17 @@
-.review-box > .card{
-    margin: 8rem auto;
-    max-width: 80rem;
-    max-height: 35rem;
-    box-shadow: 20px 20px 100px black;
+#back-button{
+    margin: 1rem 0 2% 2rem;
 }
 
-.card-img {
-    max-height: 35rem;
+.review-box > .card{
+    margin: 0 auto;
+    width: 90%;
+    box-shadow: 10px 10px 10px black;
 }
+
 
 .review{
     font-size: 1.5rem;
     margin: 2rem 0 0 0;
-    text-align: justify;
     max-width: 30rem;
 }
 
