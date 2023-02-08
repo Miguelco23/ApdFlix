@@ -44,7 +44,7 @@ function MyMovies({ list, user }) {
                             <div className="card little-card" >
                                 <img src={serie.img} className="card-img-top" alt={serie.name} />
                                 <div className="card-body">
-                                    <h5 className="card-title">{serie.name}</h5>
+                                    <div className="card-title"><b>{serie.name}</b></div>
                                     <ReactStars
                                         classNames="stars"
                                         count={5}
