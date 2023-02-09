@@ -9,16 +9,23 @@ This application is deployed [here](https://miguelco23.github.io/ApdFlix/)
 And it looks like this
 
 ### On PC 💻 <br>
-<img src="https://i.imgur.com/42DQmsw.png" style="width: 500px" >
-<img src="https://i.imgur.com/XHCpyF9.png" style="width: 500px" >
-<img src="https://i.imgur.com/tUgv5pH.png" style="width: 500px" >
+
+<p float="left">
+    <img src="https://i.imgur.com/42DQmsw.png" width= "380px" />
+<img src="https://i.imgur.com/XHCpyF9.png" width= "380px" />
+<img src="https://i.imgur.com/tUgv5pH.png" width= "380px" />
+</p>
+
 
 
 ### On Phone 📱 <br>
 
-<img src="https://i.imgur.com/JjjepCS.png" style="width: 240px">
-<img src="https://i.imgur.com/1lqG8XQ.png" style="width: 240px">
-<img src="https://i.imgur.com/kXY75KF.png" style="width: 240px">
+<p float="left">
+    <img src="https://i.imgur.com/JjjepCS.png" width= "240px" />
+    <img src="https://i.imgur.com/1lqG8XQ.png" width= "240px" />
+    <img src="https://i.imgur.com/kXY75KF.png" width= "240px" />
+</p>
+
 
 
 ## Tech resources
