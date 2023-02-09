@@ -9,20 +9,17 @@ This application is deployed [here](https://miguelco23.github.io/ApdFlix/)
 And it looks like this
 
 ### On PC 💻 <br>
-<div style="display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(24rem, 45%));">
-    <img src="https://i.imgur.com/42DQmsw.png" style="margin: 1rem" >
-    <img src="https://i.imgur.com/XHCpyF9.png" style="margin: 1rem" >
-    <img src="https://i.imgur.com/tUgv5pH.png" style="margin: 1rem" >
-</div>
+<img src="https://i.imgur.com/42DQmsw.png" style="width: 500px" >
+<img src="https://i.imgur.com/XHCpyF9.png" style="width: 500px" >
+<img src="https://i.imgur.com/tUgv5pH.png" style="width: 500px" >
+
 
 ### On Phone 📱 <br>
-<div style="display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(12rem, 33%));">
-    <img src="https://i.imgur.com/JjjepCS.png" style="margin: 1rem">
-    <img src="https://i.imgur.com/1lqG8XQ.png" style="margin: 1rem">
-    <img src="https://i.imgur.com/kXY75KF.png" style="margin: 1rem">
-</div>
+
+<img src="https://i.imgur.com/JjjepCS.png" style="width: 240px">
+<img src="https://i.imgur.com/1lqG8XQ.png" style="width: 240px">
+<img src="https://i.imgur.com/kXY75KF.png" style="width: 240px">
+
 
 ## Tech resources
 
