@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ApdFlix/static/css/main.2c6625a3.css",
-    "main.js": "/ApdFlix/static/js/main.1c45ea12.js",
+    "main.js": "/ApdFlix/static/js/main.b25c7b87.js",
     "static/media/wallpaper.jpg": "/ApdFlix/static/media/wallpaper.80c989ee21cff0cec0df.jpg",
     "static/media/logo.png": "/ApdFlix/static/media/logo.0b9038fd216e4c56f833.png",
     "static/media/logo-noletras.png": "/ApdFlix/static/media/logo-noletras.efa7c83ffbb829be38b2.png",
     "index.html": "/ApdFlix/index.html",
     "main.2c6625a3.css.map": "/ApdFlix/static/css/main.2c6625a3.css.map",
-    "main.1c45ea12.js.map": "/ApdFlix/static/js/main.1c45ea12.js.map"
+    "main.b25c7b87.js.map": "/ApdFlix/static/js/main.b25c7b87.js.map"
   },
   "entrypoints": [
     "static/css/main.2c6625a3.css",
-    "static/js/main.1c45ea12.js"
+    "static/js/main.b25c7b87.js"
   ]
 }
