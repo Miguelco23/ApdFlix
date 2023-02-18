@@ -14,8 +14,12 @@ const AppRouter = createBrowserRouter([
         element: <Home />
     },
     {
-        path: 'ApdFlix/:user',
-        element: <App />
+        path: 'ApdFlix/miguelSeries',
+        element: <App user="miguelSeries" />
+    },
+    {
+        path: 'ApdFlix/apdSeries',
+        element: <App user="apdSeries" />
     },
     {
         path: 'ApdFlix/:userName/:serieName',

@@ -1,7 +1,6 @@
 import './App.css';
 import MyMovies from './components/MyMovies';
 import AddSerieForm from './components/AddSerieForm';
-import { useParams } from "react-router-dom";
 import axios from "axios";
 import { useState } from "react";
 import "./components/styles/Header.css";
@@ -9,15 +8,18 @@ import { Link } from "react-router-dom"
 import Logo  from "./assets/images/logo-noletras.png";
 import CountUp from 'react-countup';
 
-function App() {
+function App(userName) {
   const [db, setDb] = useState({});
   const [searchTerm, setSearchTerm] = useState("");
+  const user = userName.user;
+  
 
-  const user = useParams().user;
+
 
 
   // eslint-disable-next-line
   const ApiUrl = ("https://apdflix-0627-default-rtdb.firebaseio.com/"+user+"/");
+  
 
   const getApi = (url) => {
     axios.get(url)
