@@ -9,10 +9,6 @@ function MyMovies({ list, user }) {
 
 
         <div className="MyMovies">
-                <button type="button" className="btn btn-success new-serie" data-bs-toggle="modal" data-bs-target="#modalForm">
-                    New serie
-                </button>
-
             <div className="series-grid">
                 {list.map((serie, index) => {
                     return (

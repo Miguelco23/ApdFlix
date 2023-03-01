@@ -9,11 +9,15 @@ function Home() {
             <div className="card home-card">
                 <img src={Logo} className="card-img-top" id='home-img' alt="..." />
                 <div className="card-body">
-                    <div className="d-grid gap-2" id="buttons">
-                        <Link to={"./apdSeries"} className="btn btn-outline-dark btn-lg">Apd's Series</Link>
-                        <Link to={"./apdMovies"} className="btn btn-outline-dark btn-lg">Apd's Movies</Link>
-                        <Link to={"./miguelSeries"} className="btn btn-outline-dark btn-lg">Miguel's Series</Link>
-                        <Link to={"./anaSeries"} className="btn btn-outline-dark btn-lg">Ana's Series</Link>
+                    <div id="buttons">
+                        <div className="row">
+                            <div className="col"><Link to={"./apdSeries"} className="btn btn-outline-dark btn-lg btn-home">Apd's Series</Link></div>
+                            <div className="col"><Link to={"./apdMovies"} className="btn btn-outline-dark btn-lg btn-home">Apd's Movies</Link></div>
+                        </div>
+                        <div className="row">
+                            <div className="col"><Link to={"./miguelSeries"} className="btn btn-outline-dark btn-lg btn-home">Miguel's Series</Link></div>
+                            <div className="col"><Link to={"./anaSeries"} className="btn btn-outline-dark btn-lg btn-home">Ana's Series</Link></div>
+                        </div>
                     </div>
                 </div>
             </div>
