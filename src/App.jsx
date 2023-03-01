@@ -68,7 +68,7 @@ function App(userName) {
         } else if (user === "apdMovies") {
             return (<div><AddMovieForm url={ApiUrl} />
                 <button type="button" className="btn btn-success new-serie" data-bs-toggle="modal" data-bs-target="#modalForm">
-                    New Movie
+                    New movie
                 </button></div>)
         } else if (user === "anaSeries") {
             return (<div><AddSerieForm url={ApiUrl} />

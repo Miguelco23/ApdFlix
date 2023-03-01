@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Home from './Home';
 import Serie from './Serie'
+import Movie from './Movie'
 import NoFound from './NoFound';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
@@ -24,6 +25,10 @@ const AppRouter = createBrowserRouter([
     {
         path: 'ApdFlix/apdMovies',
         element: <App user="apdMovies" />
+    },
+    {
+        path: 'ApdFlix/apdMovies/:movieName',
+        element: <Movie />
     },
     {
         path: 'ApdFlix/:userName/:serieName',
