@@ -44,8 +44,12 @@ function App(userName) {
   const counter = () => {
     if (user === "miguelSeries") {
         return (<h2 className="counter"><b>Miguel</b> has seen <b style={{ "color": "red" }}><CountUp end={array.length} duration={1.5} /></b> series</h2>)
-    } else {
+    } else if (user === "apdSeries") {
         return (<h2 className="counter"><b>Ana & Miguel</b> have seen <b style={{ "color": "red" }}><CountUp end={array.length} duration={1.5} /></b> series together</h2>)
+    } else if (user === "apdMovies"){
+        return (<h2 className="counter"><b>Ana & Miguel</b> have seen <b style={{ "color": "red" }}><CountUp end={array.length} duration={1.5} /></b> movies together</h2>)
+    } else if (user === "anaSeries") {
+        return (<h2 className="counter"><b>Ana</b> has seen <b style={{ "color": "red" }}><CountUp end={array.length} duration={1.5} /></b> series</h2>)
     }
 };
 
@@ -72,8 +76,11 @@ function App(userName) {
                                 </button>
                                 <ul className="dropdown-menu">
                                     <li><Link className="dropdown-item" to={"/ApdFlix/apdSeries"}>Apd's series</Link></li>
+                                    <li><Link className="dropdown-item" to={"/ApdFlix/apdMovies"}>Apd's movies</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
                                     <li><Link className="dropdown-item" to={"/ApdFlix/miguelSeries"}>Miguel's series</Link></li>
+                                    <li><Link className="dropdown-item" to={"/ApdFlix/anaSeries"}>Ana's series</Link></li>
+
                                 </ul>
                             </li>
                         </ul>

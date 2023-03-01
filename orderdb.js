@@ -400,14 +400,1247 @@ let miguelSeries = [
   }
 ];
 
+let apdMovies = `Scream
+Babylon
+Las nadadoras
+El gato con botas: el último deseo
+Megan
+Uncharted
+El Aro 4
+The Batman
+Morbius
+Animales fantásticos: secretos de Dumbledore
+Ambulancia
+La ciudad perdida
+Dog: un viaje salvaje
+Doctor strange: multiverse of madness
+Top Gun Maverick
+Dios no está muerto
+Dios no está muerto 2
+Jurassic world dominion
+Lightyear
+El teléfono negro
+Mentiroso mentiroso
+Thor love and thunder
+Eterno resplandor de una mente sin recuerdos
+Hoy si
+Tren bala
+Te veo
+El hoyo
+Vertigo
+Viaje al paraíso
+La huérfana 2
+Guerra mundial z
+Amor de gata
+Harry Potter: la piedra filosofal
+Harry Potter: la cámara secreta
+Harry Potter: el cáliz de fuego
+Harry Potter: El prisionero de Azkaban
+Harry Potter: el principe mestizo
+Harry Potter: La orden del Fénix
+Harry Potter: reliquias de la muerte
+Harry Potter: reliquias de la muerte 2
+La invitación
+Black Adam
+Black Panther: Wakand Forever
+Soul
+Avatar: el sentido del agua
+Knives out
+Knives out 2
+El callejón de las almas perdidas
+Nope
+Us
+Amor y mounstros
+Spiderman: no way home
+Misterio a bordo
+El angel de la muerte
+Bohemian Rhapsody 
+Alerta roja
+No miren arriba
+Dune
+Free guy
+Proyecto power
+Yo estuve aquí
+Jumanji: siguiente nivel
+Fragmentado
+Glass
+Teléfono del señor Harrigan
+Jhon Wick
+Jhon Wick 2
+Jhon Wick 3
+Encanto
+Coco
+El prácticamente
+Contratiempo
+Baby: aprendiz del crimen
+Insidious 5
+La monja
+El ejército de los ladrones
+Shaft
+El último cazador de brujas
+Bárbaro
+Escuadron 6
+Misión de rescate
+La apariencia de las cosas
+El diablo a todas horas
+El horfanato
+La mujer en la ventana
+RIPD
+La purga por siempre
+Bad boys para siempre
+El viaje de Chihiro
+El silencio
+No respires
+No respires 2
+Vivo
+Mujer maravilla 1984
+Mulan
+Mulan live action
+Los nuevos mutantes
+Hocus pocus
+El hombre invisible
+El ejército de los muertos
+Descuida yo te cuido
+Cazafantasmas: más allá
+Expediente warren: obligado por el demonio
+Un lugar en silencio
+Un lugar en silencio 2
+Viejos
+Los eternals
+Iron man
+Thor
+Increíble Hulk
+Capitan América 
+Agente fortune
+Llaman a la puerta
+Pasaje al paraíso
+Bestia
+Los fantasmas de scrooge
+El expreso polar
+Autopsia
+Llamas de venganza
+Matrix resurrection
+Animales fantásticos y dónde encontrarlos
+Animales fantásticos: los crímenes de Grindelwald
+El hombre de Toronto
+Un gato callejero llamado Bob
+Unidos
+El stand de los besos
+El stand de los besos 2
+El stand de los besos 3
+A todos los chicos que me enamoré
+A todos los chicos: todavía te quiero
+A todos los chicos: para siempre 
+Hanna
+Manos a las armas
+Victor Frankenstein`
+
+let apdMoviesWOMinus = {
+  "Scream": {
+      "name": "Scream",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Babylon": {
+      "name": "Babylon",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Las nadadoras": {
+      "name": "Las nadadoras",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El gato con botas: el último deseo": {
+      "name": "El gato con botas: el último deseo",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Megan": {
+      "name": "Megan",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Uncharted": {
+      "name": "Uncharted",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El Aro 4": {
+      "name": "El Aro 4",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "The Batman": {
+      "name": "The Batman",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Morbius": {
+      "name": "Morbius",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Animales fantásticos: secretos de Dumbledore": {
+      "name": "Animales fantásticos: secretos de Dumbledore",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Ambulancia": {
+      "name": "Ambulancia",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "La ciudad perdida": {
+      "name": "La ciudad perdida",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Dog: un viaje salvaje": {
+      "name": "Dog: un viaje salvaje",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Doctor strange: multiverse of madness": {
+      "name": "Doctor strange: multiverse of madness",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Top Gun Maverick": {
+      "name": "Top Gun Maverick",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Dios no está muerto": {
+      "name": "Dios no está muerto",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Dios no está muerto 2": {
+      "name": "Dios no está muerto 2",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Jurassic world dominion": {
+      "name": "Jurassic world dominion",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Lightyear": {
+      "name": "Lightyear",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El teléfono negro": {
+      "name": "El teléfono negro",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Mentiroso mentiroso": {
+      "name": "Mentiroso mentiroso",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Thor love and thunder": {
+      "name": "Thor love and thunder",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Eterno resplandor de una mente sin recuerdos": {
+      "name": "Eterno resplandor de una mente sin recuerdos",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Hoy si": {
+      "name": "Hoy si",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Tren bala": {
+      "name": "Tren bala",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Te veo": {
+      "name": "Te veo",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El hoyo": {
+      "name": "El hoyo",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Vertigo": {
+      "name": "Vertigo",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Viaje al paraíso": {
+      "name": "Viaje al paraíso",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "La huérfana 2": {
+      "name": "La huérfana 2",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Guerra mundial z": {
+      "name": "Guerra mundial z",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Amor de gata": {
+      "name": "Amor de gata",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Harry Potter: la piedra filosofal": {
+      "name": "Harry Potter: la piedra filosofal",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Harry Potter: la cámara secreta": {
+      "name": "Harry Potter: la cámara secreta",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Harry Potter: el cáliz de fuego": {
+      "name": "Harry Potter: el cáliz de fuego",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Harry Potter: El prisionero de Azkaban": {
+      "name": "Harry Potter: El prisionero de Azkaban",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Harry Potter: el principe mestizo": {
+      "name": "Harry Potter: el principe mestizo",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Harry Potter: La orden del Fénix": {
+      "name": "Harry Potter: La orden del Fénix",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Harry Potter: reliquias de la muerte": {
+      "name": "Harry Potter: reliquias de la muerte",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Harry Potter: reliquias de la muerte 2": {
+      "name": "Harry Potter: reliquias de la muerte 2",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "La invitación": {
+      "name": "La invitación",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Black Adam": {
+      "name": "Black Adam",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Black Panther: Wakand Forever": {
+      "name": "Black Panther: Wakand Forever",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Soul": {
+      "name": "Soul",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Avatar: el sentido del agua": {
+      "name": "Avatar: el sentido del agua",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Knives out": {
+      "name": "Knives out",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Knives out 2": {
+      "name": "Knives out 2",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El callejón de las almas perdidas": {
+      "name": "El callejón de las almas perdidas",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Nope": {
+      "name": "Nope",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Us": {
+      "name": "Us",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Amor y mounstros": {
+      "name": "Amor y mounstros",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Spiderman: no way home": {
+      "name": "Spiderman: no way home",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Misterio a bordo": {
+      "name": "Misterio a bordo",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El angel de la muerte": {
+      "name": "El angel de la muerte",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Bohemian Rhapsody ": {
+      "name": "Bohemian Rhapsody ",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Alerta roja": {
+      "name": "Alerta roja",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "No miren arriba": {
+      "name": "No miren arriba",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Dune": {
+      "name": "Dune",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Free guy": {
+      "name": "Free guy",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Proyecto power": {
+      "name": "Proyecto power",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Yo estuve aquí": {
+      "name": "Yo estuve aquí",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Jumanji: siguiente nivel": {
+      "name": "Jumanji: siguiente nivel",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Fragmentado": {
+      "name": "Fragmentado",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Glass": {
+      "name": "Glass",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Teléfono del señor Harrigan": {
+      "name": "Teléfono del señor Harrigan",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Jhon Wick": {
+      "name": "Jhon Wick",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Jhon Wick 2": {
+      "name": "Jhon Wick 2",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Jhon Wick 3": {
+      "name": "Jhon Wick 3",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Encanto": {
+      "name": "Encanto",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Coco": {
+      "name": "Coco",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El prácticamente": {
+      "name": "El prácticamente",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Contratiempo": {
+      "name": "Contratiempo",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Baby: aprendiz del crimen": {
+      "name": "Baby: aprendiz del crimen",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Insidious 5": {
+      "name": "Insidious 5",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "La monja": {
+      "name": "La monja",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El ejército de los ladrones": {
+      "name": "El ejército de los ladrones",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Shaft": {
+      "name": "Shaft",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El último cazador de brujas": {
+      "name": "El último cazador de brujas",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Bárbaro": {
+      "name": "Bárbaro",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Escuadron 6": {
+      "name": "Escuadron 6",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Misión de rescate": {
+      "name": "Misión de rescate",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "La apariencia de las cosas": {
+      "name": "La apariencia de las cosas",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El diablo a todas horas": {
+      "name": "El diablo a todas horas",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El horfanato": {
+      "name": "El horfanato",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "La mujer en la ventana": {
+      "name": "La mujer en la ventana",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "RIPD": {
+      "name": "RIPD",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "La purga por siempre": {
+      "name": "La purga por siempre",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Bad boys para siempre": {
+      "name": "Bad boys para siempre",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El viaje de Chihiro": {
+      "name": "El viaje de Chihiro",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El silencio": {
+      "name": "El silencio",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "No respires": {
+      "name": "No respires",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "No respires 2": {
+      "name": "No respires 2",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Vivo": {
+      "name": "Vivo",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Mujer maravilla 1984": {
+      "name": "Mujer maravilla 1984",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Mulan": {
+      "name": "Mulan",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Mulan live action": {
+      "name": "Mulan live action",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Los nuevos mutantes": {
+      "name": "Los nuevos mutantes",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Hocus pocus": {
+      "name": "Hocus pocus",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El hombre invisible": {
+      "name": "El hombre invisible",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El ejército de los muertos": {
+      "name": "El ejército de los muertos",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Descuida yo te cuido": {
+      "name": "Descuida yo te cuido",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Cazafantasmas: más allá": {
+      "name": "Cazafantasmas: más allá",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Expediente warren: obligado por el demonio": {
+      "name": "Expediente warren: obligado por el demonio",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Un lugar en silencio": {
+      "name": "Un lugar en silencio",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Un lugar en silencio 2": {
+      "name": "Un lugar en silencio 2",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Viejos": {
+      "name": "Viejos",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Los eternals": {
+      "name": "Los eternals",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Iron man": {
+      "name": "Iron man",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Thor": {
+      "name": "Thor",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Increíble Hulk": {
+      "name": "Increíble Hulk",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Capitan América ": {
+      "name": "Capitan América ",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Agente fortune": {
+      "name": "Agente fortune",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Llaman a la puerta": {
+      "name": "Llaman a la puerta",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Pasaje al paraíso": {
+      "name": "Pasaje al paraíso",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Bestia": {
+      "name": "Bestia",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Los fantasmas de scrooge": {
+      "name": "Los fantasmas de scrooge",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El expreso polar": {
+      "name": "El expreso polar",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Autopsia": {
+      "name": "Autopsia",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Llamas de venganza": {
+      "name": "Llamas de venganza",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Matrix resurrection": {
+      "name": "Matrix resurrection",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Animales fantásticos y dónde encontrarlos": {
+      "name": "Animales fantásticos y dónde encontrarlos",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Animales fantásticos: los crímenes de Grindelwald": {
+      "name": "Animales fantásticos: los crímenes de Grindelwald",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El hombre de Toronto": {
+      "name": "El hombre de Toronto",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Un gato callejero llamado Bob": {
+      "name": "Un gato callejero llamado Bob",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Unidos": {
+      "name": "Unidos",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El stand de los besos": {
+      "name": "El stand de los besos",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El stand de los besos 2": {
+      "name": "El stand de los besos 2",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "El stand de los besos 3": {
+      "name": "El stand de los besos 3",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "A todos los chicos que me enamoré": {
+      "name": "A todos los chicos que me enamoré",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "A todos los chicos: todavía te quiero": {
+      "name": "A todos los chicos: todavía te quiero",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "A todos los chicos: para siempre ": {
+      "name": "A todos los chicos: para siempre ",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Hanna": {
+      "name": "Hanna",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Manos a las armas": {
+      "name": "Manos a las armas",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  },
+  "Victor Frankenstein": {
+      "name": "Victor Frankenstein",
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+  }
+}
+
+let arrayMovies = apdMovies.split("\n");
+
+const arrayToJSON = (array) => {
+  let jsonList = [];
+  for (let i = 0; i < array.length; i++) {
+    jsonList.push({
+      "name": array[i],
+      "img": "",
+      "review": "",
+      "rate": 0,
+      "date": "",
+      "anaSleep": false
+    });
+  }
+  return jsonList;
+}
+
 
 const orderDb = (list) => {
   let newDb = {};
   for (let i = 0; i < list.length; i++) {
-    newDb[list[i].name] = list[i]; 
+    newDb[list[i].name.replace(/ /g, "_")] = list[i];
   };
-  console.log(newDb);
+  return newDb;
+  
 };
 
-orderDb(apdSeries);
-orderDb(miguelSeries);
+const objectToJSON = (object) => {
+   return (JSON.stringify(object));
+}
+
+console.log(objectToJSON(orderDb(arrayToJSON(arrayMovies))));
+
+
