@@ -23,7 +23,7 @@ function AddMovieForm({ url }) {
 
     const handleCheckbox = () => {
         setNewSerie((prev) => {
-            return {...prev, anaSleep:!prev.anaSleep };
+            return { ...prev, anaSleep: !prev.anaSleep };
         });
     };
 
@@ -61,15 +61,15 @@ function AddMovieForm({ url }) {
 
     return (
         <div className="AddMovieForm form" id="AddForm">
-            <div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Add a new Movie</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={handleClose}></button>
+            <div className="modal fade" id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <h1 className="modal-title fs-5" id="exampleModalLabel">Add a new Movie</h1>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={handleClose}></button>
                         </div>
                         <form>
-                            <div class="modal-body">
+                            <div className="modal-body">
                                 <div className="form-floating mb-3">
                                     <input type="text" name="name" className="form-control" id="floatingInput" value={newSerie.name} onChange={handleInputs} />
                                     <label htmlFor="floatingInput">Movie's name</label>
@@ -87,7 +87,6 @@ function AddMovieForm({ url }) {
                                     <textarea className="form-control" name="review" aria-label="With textarea" value={newSerie.review} onChange={handleInputs} />
                                 </div>
 
-
                                 <ReactStars
                                     value={newSerie.rate}
                                     name="rate"
@@ -98,15 +97,13 @@ function AddMovieForm({ url }) {
                                     activeColor="#ffd700"
                                 />
                                 <div className="input-group">
+                                    <span id="checkId">Did Ana sleep?</span>
                                     <input className="form-check-input" type="checkbox" name="anaSleep" id="anaSleep" value={newSerie.anaSleep} onChange={handleCheckbox} />
-                                    <label htmlFor="anaSleep">Did Ana sleep?</label>
                                 </div>
-
-
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onClick={handleClose}>Close</button>
-                                <button type="button" class="btn btn-success" data-bs-dismiss="modal" onClick={addSerie}>Add Movie</button>
+                            <div className="modal-footer">
+                                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal" onClick={handleClose}>Close</button>
+                                <button type="button" className="btn btn-success" data-bs-dismiss="modal" onClick={addSerie}>Add Movie</button>
                             </div>
                         </form>
                     </div>

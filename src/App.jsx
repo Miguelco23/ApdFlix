@@ -58,22 +58,22 @@ function App(userName) {
         if (user === "miguelSeries") {
             return (<div><AddSerieForm url={ApiUrl} />
                 <button type="button" className="btn btn-success new-serie" data-bs-toggle="modal" data-bs-target="#modalForm">
-                    Add A New serie
+                    New serie
                 </button></div>)
         } else if (user === "apdSeries") {
             return (<div><AddSerieForm url={ApiUrl} />
                 <button type="button" className="btn btn-success new-serie" data-bs-toggle="modal" data-bs-target="#modalForm">
-                    Add A New serie
+                    New serie
                 </button></div>)
         } else if (user === "apdMovies") {
             return (<div><AddMovieForm url={ApiUrl} />
                 <button type="button" className="btn btn-success new-serie" data-bs-toggle="modal" data-bs-target="#modalForm">
-                    Add A New Movie
+                    New Movie
                 </button></div>)
         } else if (user === "anaSeries") {
             return (<div><AddSerieForm url={ApiUrl} />
                 <button type="button" className="btn btn-success new-serie" data-bs-toggle="modal" data-bs-target="#modalForm">
-                    Add A New serie
+                    New serie
                 </button></div>)
         }
     };
